@@ -16,13 +16,13 @@
     "element-ui": "^2.0.8",
     "fastclick": "^1.0.6",
     "iscroll": "^5.2.0",
-    "key-manager-IE": "git+ssh://http://cuiyuqiang@192.168.9.66/Juzix-ethereum/key-manager-IE.git#develop",
+    "key-manager-IE": "git+ssh://https://github.com/Juzix/key-manager.git",
     "keythereum": "^1.0.2",
     "showdown": "^1.6.4",
     "vue": "^2.1.0",
     "vue-router": "^2.1.1",
     "vuex": "^2.0.0",
-    "web3": "git+ssh://http://cuiyuqiang@192.168.9.66/Juzix-ethereum/web3.git#master"
+    "web3": "git+ssh://https://github.com/Juzix/web3js.git"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
