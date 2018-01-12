@@ -1,9 +1,7 @@
-# 图书管理
-> 本项目使用nodejs通过web3j对合约进行操作，来管理图书的增删查操作。
+## 应用描述
 
-* 样例（contract目录）
-1. BookManager.sol：图书的业务逻辑，增删查。
-2. BookModule.sol：图书模块，图书模块的URL可以跳转到DApp应用(开发者自己编写)。
+该应用为一款基于JUICE开放服务平台开发的图书管理DApp应用，通过应用界面可以对图书进行增删查功能操作
+
 
 ## 项目运行（nodejs 6.0+）
 
@@ -20,15 +18,4 @@ npm run dev
 ```shell
 npm run build
 ```
-打包后的demo下目录static和文件index.html，放到服务器上，直接访问静态文件index.html。
-
-## URL访问
-contract目录下的BookModule.sol中
-```
-moduleUrl = "https://www.juzhen.io/bookMgr";
-```
-设置的URL为服务访问URL（DApp应用的URL）。
-
-## 合约部署
-BookManager.sol和BookModule.sol合约文件需要部署，DApp才能使用。
-请看合约开发章节，部署样例合约。
+打包后的demo下目录static和文件index.html，放到服务器上，直接访问静态文件index.html
