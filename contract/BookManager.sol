@@ -83,15 +83,6 @@ contract BookManager is OwnerNamed {
     function deleteByNumber(string _number) public returns(uint) {
         LibLog.log("into delete..", "BookManager");
 
-        //合约拥有者，才能删除顾客信息
-        if (tx.origin != owner) {
-            LibLog.log("msg.sender is not owner", "BookManager");
-            LibLog.log("operator no permission");
-            errno = 15200 + uint(ErrorNo.NO_PERMISSION);
-            Notify(errno, "无操作权限，非管理员");
-            return;
-        }
-
         //顾客列表不为空
         if (bookList.length > 0) {
             if (keyMap[_number] == 0) {
