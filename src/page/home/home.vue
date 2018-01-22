@@ -63,7 +63,7 @@
   import {mobileAndTabletcheck, browseCheck} from '../../config/mUtils';
   import Web3 from 'web3';
   import EthereumTx from 'ethereumjs-tx';
-  import keyManager from 'key-manager-IE';
+  import keyManager from '@/../static/js/key-manager-min.js';
   export default {
     data() {
       return {
