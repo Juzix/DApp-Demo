@@ -71,7 +71,7 @@ contract BookModule is BaseModule {
         tmpModule.icon = "";
         tmpModule.moduleEnable = 0;
         tmpModule.moduleType = 2;
-        tmpModule.moduleUrl = "https://www.juzhen.io/bookMgr/";
+        tmpModule.moduleUrl = "https://open.juzix.net/bookMgr/";
         tmpModule.moduleText = moduleDesc;
         tmpModule.moduleDescription = moduleDescription;
 
