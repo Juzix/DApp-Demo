@@ -19,3 +19,9 @@ npm run dev
 npm run build
 ```
 打包后的demo下目录static和文件index.html，放到服务器上，直接访问静态文件index.html
+
+> 开放服务平台线上打包修改两个地方
+```
+DApp-Demo\config\index.js assetsPublicPath: '/bookMgr' 
+\DApp-Demo\index.html <script src="/bookMgr/static/js/key-manager-min.js"></script>
+```
